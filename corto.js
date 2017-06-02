@@ -15,7 +15,7 @@
                 else
                     el = (root||document).getElementsByTagName(el);
             } else
-                el = (root||document).querySelectorAll(s);
+                el = (root||document).querySelectorAll(el);
         }
 
         else if( el instanceof Array == false ){
