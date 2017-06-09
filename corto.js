@@ -35,7 +35,7 @@
     }
 
     function loop(){
-        if( this.__loopCounter == this.length ){
+        if( this.__loopCounter >= this.length ){
             this.node = null;
             this.__loopCounter = 0;
         } else {
